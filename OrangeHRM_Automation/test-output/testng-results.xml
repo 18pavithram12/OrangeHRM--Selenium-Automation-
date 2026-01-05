@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T17:25:47 IST" name="OrangeHRM Suite" finished-at="2026-01-05T17:26:31 IST" duration-ms="43935">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T17:25:47 IST" name="Login and Profile Tests" finished-at="2026-01-05T17:26:31 IST" duration-ms="43935">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@292b08d6]" started-at="2026-01-05T17:25:47 IST" name="setUp" finished-at="2026-01-05T17:25:55 IST" duration-ms="7833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:tests.LoginTest@292b08d6]" started-at="2026-01-05T17:25:55 IST" name="verifyLoginFunctionality" finished-at="2026-01-05T17:26:02 IST" duration-ms="6686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@292b08d6]" started-at="2026-01-05T17:26:02 IST" name="tearDown" finished-at="2026-01-05T17:26:02 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ProfileTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProfileTest@4b2bac3f]" started-at="2026-01-05T17:26:02 IST" name="setUp" finished-at="2026-01-05T17:26:06 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMyInfoPage()[pri:0, instance:tests.ProfileTest@4b2bac3f]" started-at="2026-01-05T17:26:06 IST" name="verifyMyInfoPage" finished-at="2026-01-05T17:26:31 IST" duration-ms="24924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyInfoPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProfileTest@4b2bac3f]" started-at="2026-01-05T17:26:31 IST" name="tearDown" finished-at="2026-01-05T17:26:31 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProfileTest -->
+    </test> <!-- Login and Profile Tests -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>
